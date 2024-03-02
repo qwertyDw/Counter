@@ -1,0 +1,123 @@
+.box{
+    position: relative;
+    left: 270px;
+    width: 500px;
+    height: 340px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.box h1{
+    position: relative;
+    left: 170px;
+    top: 50px;
+    color: rgb(194, 31, 180);
+}
+.box .count{
+    position: relative;
+    left: 220px;
+    top: 45px;
+    font-size: 100px;
+    color: rgb(223, 0, 11);
+    z-index: 999;
+}
+.box .count p{
+    color: #000;
+}
+.box .func{
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+    margin: 0 30px;
+}
+.box .func button{
+    position: relative;
+    border: #000 solid 2px;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(194, 31, 180);
+    z-index: 999;
+}
+.box .func .dec p{
+    color: #fff;
+    margin:12px;
+    font-size: 18px;
+    text-align: center;
+}
+.box .func .shadow1{
+    position: absolute;
+    bottom: -3px;
+    left: 7px;
+    width: 120px;
+    height: 50px;
+    background-color: #000;
+}
+.box .func .inc{
+    position: relative;
+    left: 120px;
+    border: #000 solid 2px;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(194, 31, 180);
+    z-index: 999;
+}
+.box .func .inc p{
+    color: #fff;
+    margin:12px;
+    font-size: 18px;
+    text-align: center;
+}
+.box .func .shadow2{
+    position: absolute;
+    bottom: -3px;
+    left: 325px;
+    width: 120px;
+    height: 50px;
+    background-color: #000;
+}
+.box .func .reset button{
+    position: relative;
+    border: #000 solid 2px;
+    width: 70px;
+    height: 30px;
+    background-color: #000;
+    z-index: 999;
+    top: 50px;
+}
+.box .func .reset p{
+    margin: 5px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.box .func .auto p{
+    margin: 5px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.box .func .auto button{
+    position: relative;
+    right: 125px;
+    border: #000 solid 2px;
+    width: 70px;
+    height: 30px;
+    background-color: #eb1b1b;
+    z-index: 999;
+    top: 50px;
+}
+.box .func .stop p{
+    margin: 5px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.box .func .stop button{
+    position: relative;
+    right: 125px;
+    border: #000 solid 2px;
+    width: 70px;
+    height: 30px;
+    background-color: #1f1beb;
+    z-index: 999;
+    top: 50px;
+}
